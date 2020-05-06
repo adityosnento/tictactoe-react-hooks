@@ -40,12 +40,13 @@ function Game() {
       <div className="title-game">
         <h1>Tic Tac Toe</h1>
         <p>
-          I try to make tic tac toe game following the tutorial from youtube
+        Tic-tac-toe (American English) is a paper-and-pencil game for two players, X and O, who take turns marking the spaces in a 3×3 grid.
         </p>
       </div>
 
       <div className="game">
         <div className="status">{status}</div>
+        <div className="board-container-hero">
         <div className="board-container">
           <div className="board-row">
             {renderSquare(0)}
@@ -64,6 +65,7 @@ function Game() {
             {renderSquare(7)}
             {renderSquare(8)}
           </div>
+        </div>
         </div>
       </div>
     </div>

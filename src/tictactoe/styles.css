@@ -14,10 +14,14 @@ body {
     font-size: 20px;
     font-weight: bold;
   }
-
-  .board-container {
-    display: block;
-    padding:0px 200px;
+  
+  .board-container-hero {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .board-container { 
+    padding:0px 20px;
   }
   
   .square {
